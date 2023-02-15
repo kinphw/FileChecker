@@ -1,6 +1,6 @@
 # FileChecker
 
-v2 DD 230215Cancel changes
+v2 DD 230215
 
 #### 기능
 1. 파일의 모든 메모(노트) 일괄 삭제
