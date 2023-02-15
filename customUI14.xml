@@ -1,0 +1,21 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" >
+  <ribbon>
+    <tabs>
+        <tab id="FCTab" label="FileCheckHelper">
+            <group id="FCGroup1"  label="Do Something">
+                <button id="FCButton1"  size="large" imageMso="AssignmentNotes"
+         onAction="ClearComments" screentip="Kill Memo"
+         supertip="파일의 모든 메모를 삭제합니다."/>
+                <button id="FCButton2"  size="large" imageMso="Backspace"
+         onAction="ClearFormula" screentip="Kill Error Formula"
+         supertip="파일의 모든 에러가 발생한 함수를 삭제합니다. (값복사는 시간이 오래걸려 구현하지 않음)"/>         
+            </group>
+            <group id="FCGroup2"  label="Help">
+                <button id="FCButton3"  size="large" imageMso="About"
+         onAction="Help" screentip="도움말을 표시합니다."
+         supertip="도움말"/>
+            </group>                
+        </tab>
+    </tabs>
+  </ribbon>
+</customUI>
